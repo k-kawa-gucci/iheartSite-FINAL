@@ -1,0 +1,113 @@
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 350px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #04486a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #949494;}
+
+ul.topnav li a.active {
+                        font-size: 50px;
+                        padding-right: 4%;
+}
+
+ul.topnav li.right {
+                    font-size: 50px;
+                    float: left;
+                    padding-left: 4%;
+                  }
+.active {
+          padding: 0;
+          border: 0;
+}
+.div2 {
+         width: 60%;
+
+}
+
+.div3 {
+        width: 100%;
+}
+.section01{
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	background-size: contain;
+	padding-top: 180px;
+  padding-left: 700px;
+	width: auto;
+	margin: 0 auto;
+	font color: white
+}
+.the-classics {
+                    width: 100%
+}
+
+.regular-image {
+                    width: 100%;
+}
+.iheartlogo {
+                    padding: 0;
+                    border: 0;
+}
+div {
+                      background-color: lightgrey;
+                      height: 500px;
+                      display: block;
+                      width:inherit;
+                      padding: 25px;
+                      margin: 25px;
+                  }
+
+.button {
+                  	display: block;
+                  	height: 70px;
+                  	width: 170px;
+                  	background: #64b8e8;
+                    color: white;
+                  	text-align: center;
+                  	font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+                    font-size: 100%;
+                  }
+
+
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+div {
+                      background-color: lightgrey;
+                      height: 500px;
+                      display: block;
+                      width:inherit;
+                      padding: 25px;
+                      margin: 25px;
+                  }
+
+.button {
+                  	display: block;
+                  	height: 70px;
+                  	width: 170px;
+                  	background: #64b8e8;
+                    color: white;
+                  	text-align: center;
+                  	font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+                    font-size: 100%;
+                  }
